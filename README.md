@@ -8,7 +8,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
 
 ## 🗂️ Projetos Concluídos
 
-### 1. Introdução ao Java
+### 1. Introdução ao Java (Aulas 1-8)
 - [x] Como Java Funciona
 - [x] Download e instalação da JDK
 - [x] Configuração de variáveis de ambiente
@@ -17,7 +17,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
 - [x] Organização de código em pacotes
 - [x] Comentários
 
-### 2. Fundamentos da Linguagem
+### 2. Fundamentos da Linguagem (Aulas 9-38)
 - [x] Tipos primitivos
   - Convenções de variáveis
   - Declaração e tamanho em memória
@@ -46,7 +46,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Foreach
   - Inicialização
 
-### 3. Programação Orientada a Objetos
+### 3. Programação Orientada a Objetos (Aulas 39-52)
 - [x] Classes e Objetos
   - Introdução a classes
   - Coesão
@@ -62,7 +62,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
 
 ## 📜 Conteúdo Restante
 
-### 3. Programação Orientada a Objetos
+### 3. Programação Orientada a Objetos (Aulas 53-94)
 - [ ] Modificadores de acesso
   - Private
   - Get e Set
@@ -104,7 +104,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Cast e instanceof
   - Programação orientada a interface
 
-### 4. Tratamento de Exceções
+### 4. Tratamento de Exceções (Aulas 95-105)
 - [ ] Errors
 - [ ] RuntimeException
 - [ ] Exception
@@ -117,7 +117,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
 - [ ] Exceção customizada
 - [ ] Exceção e regras de sobrescrita
 
-### 5. Classes Utilitárias
+### 5. Classes Utilitárias (Aulas 106-160)
 - [ ] Wrappers
 - [ ] Strings
   - Desempenho
@@ -169,7 +169,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - ZipOutputStream
 - [ ] Serialization
 
-### 6. Coleções
+### 6. Coleções (Aulas 161-182)
 - [ ] Equals e HashCode
 - [ ] Complexidade Big-O
 - [ ] List
@@ -188,17 +188,17 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - TreeMap
 - [ ] Queue e PriorityQueue
 
-### 7. Generics
+### 7. Generics (Aulas 183-188)
 - [ ] Wildcard
 - [ ] Classes Genéricas
 - [ ] Métodos Genéricos
 
-### 8. Classes Internas
+### 8. Classes Internas (Aulas 189-192)
 - [ ] Classes Locais
 - [ ] Classes Anônimas
 - [ ] Classes aninhadas estáticas
 
-### 9. Programação Funcional
+### 9. Programação Funcional (Aulas 193-202)
 - [ ] Parametrizando comportamentos
 - [ ] Lambdas
   - Predicate
@@ -210,7 +210,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Referência a construtor
 - [ ] Optional
 
-### 10. Streams
+### 10. Streams (Aulas 203-219)
 - [ ] Introduction
 - [ ] FlatMap
 - [ ] Finding and Matching
@@ -221,7 +221,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Grouping by
 - [ ] Parallel Streams
 
-### 11. Threads
+### 11. Threads (Aulas 220-246)
 - [ ] Estados das threads
 - [ ] Prioridade e Sleep
 - [ ] Yield e Join
@@ -249,7 +249,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Encadeando chamadas
   - AllOf, AnyOf
 
-### 12. Padrões de Projeto
+### 12. Padrões de Projeto (Aulas 246-251)
 - [ ] Builder
 - [ ] Factory
 - [ ] Singleton
@@ -258,7 +258,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Singleton with enumeration
 - [ ] Data Transfer Object (DTO)
 
-### 13. JDBC
+### 13. JDBC (Aulas 252-279)
 - [ ] Instalando Docker
 - [ ] Criando container MySQL
 - [ ] Instalando Workbench
@@ -285,7 +285,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Update
   - Anime Crud
 
-### 14. Testes e Recursos Modernos
+### 14. Testes e Recursos Modernos (Aulas 280-285)
 - [ ] Testes unitários com JUnit
 - [ ] Record Class
 - [ ] Pattern Matching for instanceof
