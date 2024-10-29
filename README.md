@@ -105,24 +105,24 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Programação orientada a interface
 
 ### 4. Tratamento de Exceções
-- [x] Errors
-- [x] RuntimeException
-- [x] Exception
-- [x] Lançando exceção unchecked
-- [x] Lançando exceção checked
-- [x] Bloco Finally
-- [x] Capturando múltiplas exceções
-- [x] Multi catch em linha
-- [x] Try with resources
-- [x] Exceção customizada
-- [x] Exceção e regras de sobrescrita
+- [ ] Errors
+- [ ] RuntimeException
+- [ ] Exception
+- [ ] Lançando exceção unchecked
+- [ ] Lançando exceção checked
+- [ ] Bloco Finally
+- [ ] Capturando múltiplas exceções
+- [ ] Multi catch em linha
+- [ ] Try with resources
+- [ ] Exceção customizada
+- [ ] Exceção e regras de sobrescrita
 
 ### 5. Classes Utilitárias
-- [x] Wrappers
-- [x] Strings
+- [ ] Wrappers
+- [ ] Strings
   - Desempenho
   - StringBuilder
-- [x] Date e Time
+- [ ] Date e Time
   - Date
   - Calendar
   - DateFormat
@@ -136,26 +136,26 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - TemporalAdjusters
   - ZonedDateTime, ZoneId, OffsetDateTime
   - DateTimeFormatter
-- [x] Internacionalização
+- [ ] Internacionalização
   - Datas com Locale
   - Números com Locale
   - Moeda com Locale
-- [x] ResourceBundle
-- [x] Regex
+- [ ] ResourceBundle
+- [ ] Regex
   - Pattern e Matcher
   - Meta caracteres
   - Range
   - Quantificadores
   - Anchor
-- [x] Scanner - Tokens e Delimitadores
-- [x] IO
+- [ ] Scanner - Tokens e Delimitadores
+- [ ] IO
   - File
   - FileWriter
   - FileReader
   - BufferedWriter
   - BufferedReader
   - File para diretórios
-- [x] NIO
+- [ ] NIO
   - Path, Paths, Files
   - Normalização
   - Resolvendo Paths
@@ -167,69 +167,69 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - SimpleFileVisitor
   - PathMatcher
   - ZipOutputStream
-- [x] Serialization
+- [ ] Serialization
 
 ### 6. Coleções
-- [x] Equals e HashCode
-- [x] Complexidade Big-O
-- [x] List
+- [ ] Equals e HashCode
+- [ ] Complexidade Big-O
+- [ ] List
   - Sorting lists
   - Comparable
   - Comparator
   - Binary Search
   - Conversão de Lista para Arrays e vice versa
   - Iterator
-- [x] Set e HashSet
-- [x] NavigableSet e TreeSet
-- [x] Map
+- [ ] Set e HashSet
+- [ ] NavigableSet e TreeSet
+- [ ] Map
   - HashMap
   - LinkedHashMap
   - NavigableMap
   - TreeMap
-- [x] Queue e PriorityQueue
+- [ ] Queue e PriorityQueue
 
 ### 7. Generics
-- [x] Wildcard
-- [x] Classes Genéricas
-- [x] Métodos Genéricos
+- [ ] Wildcard
+- [ ] Classes Genéricas
+- [ ] Métodos Genéricos
 
 ### 8. Classes Internas
-- [x] Classes Locais
-- [x] Classes Anônimas
-- [x] Classes aninhadas estáticas
+- [ ] Classes Locais
+- [ ] Classes Anônimas
+- [ ] Classes aninhadas estáticas
 
 ### 9. Programação Funcional
-- [x] Parametrizando comportamentos
-- [x] Lambdas
+- [ ] Parametrizando comportamentos
+- [ ] Lambdas
   - Predicate
   - Consumer
   - Function
-- [x] Method Reference
+- [ ] Method Reference
   - Referência a métodos estáticos
   - Referência a métodos não estáticos
   - Referência a construtor
-- [x] Optional
+- [ ] Optional
 
 ### 10. Streams
-- [x] Introduction
-- [x] FlatMap
-- [x] Finding and Matching
-- [x] Reduce
-- [x] Gerando streams
-- [x] Collectors
+- [ ] Introduction
+- [ ] FlatMap
+- [ ] Finding and Matching
+- [ ] Reduce
+- [ ] Gerando streams
+- [ ] Collectors
   - Summarizing
   - Grouping by
-- [x] Parallel Streams
+- [ ] Parallel Streams
 
 ### 11. Threads
-- [x] Estados das threads
-- [x] Prioridade e Sleep
-- [x] Yield e Join
-- [x] Sincronismo de thread
+- [ ] Estados das threads
+- [ ] Prioridade e Sleep
+- [ ] Yield e Join
+- [ ] Sincronismo de thread
   - Classes thread safe
   - Deadlock
   - Wait, notify e notifyAll
-- [x] Concorrência
+- [ ] Concorrência
   - AtomicInteger
   - Lock and ReentrantLock
   - Conditions
@@ -237,12 +237,12 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - CopyOnWriteArrayList
   - ArrayBlockingQueue
   - LinkedTransferQueue
-- [x] Executors
+- [ ] Executors
   - Thread Pools
   - ScheduledExecutorService
   - Interface Callable
   - Future
-- [x] CompletableFuture
+- [ ] CompletableFuture
   - Get and join
   - Streams
   - ThreadFactory
@@ -250,35 +250,35 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - AllOf, AnyOf
 
 ### 12. Padrões de Projeto
-- [x] Builder
-- [x] Factory
-- [x] Singleton
+- [ ] Builder
+- [ ] Factory
+- [ ] Singleton
   - Eager Initialization
   - Lazy Initialization
   - Singleton with enumeration
-- [x] Data Transfer Object (DTO)
+- [ ] Data Transfer Object (DTO)
 
 ### 13. JDBC
-- [x] Instalando Docker
-- [x] Criando container MySQL
-- [x] Instalando Workbench
-- [x] Maven
-- [x] Conexão com banco de dados
-- [x] Statement
-- [x] Lombok e Log4J2
-- [x] ResultSet
+- [ ] Instalando Docker
+- [ ] Criando container MySQL
+- [ ] Instalando Workbench
+- [ ] Maven
+- [ ] Conexão com banco de dados
+- [ ] Statement
+- [ ] Lombok e Log4J2
+- [ ] ResultSet
   - findAll
   - findByName
   - ResultSetMetaData
   - DatabaseMetaData
   - TYPE SCROLL INSENSITIVE
-- [x] PreparedStatement
-- [x] CallableStatement
-- [x] RowSet
+- [ ] PreparedStatement
+- [ ] CallableStatement
+- [ ] RowSet
   - JdbcRowSet
   - CachedRowSet
-- [x] Transações
-- [x] CRUD completo
+- [ ] Transações
+- [ ] CRUD completo
   - Find operations
   - Delete
   - Save
@@ -286,9 +286,9 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
   - Anime Crud
 
 ### 14. Testes e Recursos Modernos
-- [x] Testes unitários com JUnit
-- [x] Record Class
-- [x] Pattern Matching for instanceof
+- [ ] Testes unitários com JUnit
+- [ ] Record Class
+- [ ] Pattern Matching for instanceof
       
 # 🛠️ Tecnologias Utilizadas
 
