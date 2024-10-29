@@ -6,128 +6,338 @@
 
 Este repositório documenta minha jornada de aprendizado através do curso Maratona Java, que abrange desde conceitos básicos até tópicos avançados da linguagem Java. O curso contém 285 aulas, proporcionando uma base sólida para o desenvolvimento profissional em Java.
 
-## 📊 Progresso do Curso
+## 🗂️ Projetos Concluídos
 
-![Progresso](https://img.shields.io/badge/Progresso-35%20Aulas%20Conclu%C3%ADdas-brightgreen)
-
-## 🗺️ Conteúdo do Curso
-
-### 1. Introdução ao Java (Aulas 1-8)
-- [x] Funcionamento da JVM
-- [x] Instalação e configuração do ambiente
-- [x] Download e configuração da IDE
+### 1. Introdução ao Java
+- [x] Como Java Funciona
+- [x] Download e instalação da JDK
+- [x] Configuração de variáveis de ambiente
+- [x] Executando compilação manualmente
+- [x] Download e configuração da IDE IntelliJ Community
 - [x] Organização de código em pacotes
+- [x] Comentários
 
-### 2. Fundamentos da Linguagem (Aulas 9-38)
-- [x] Tipos primitivos e convenções
+### 2. Fundamentos da Linguagem
+- [x] Tipos primitivos
+  - Convenções de variáveis
+  - Declaração e tamanho em memória
+  - Casting
+  - Strings
 - [x] Operadores
-- [x] Estruturas condicionais (if, else, switch)
-- [x] Estruturas de repetição (while, do-while, for)
-- [x] Arrays unidimensionais e multidimensionais
+  - Aritméticos
+  - Relacionais
+  - Lógicos AND
+  - Lógicos OR
+  - Atribuição
+- [x] Estruturas Condicionais
+  - If
+  - Else If
+  - Operador ternário
+  - Switch
+- [x] Estruturas de Repetição
+  - While
+  - Do While
+  - For
+  - Break
+  - Continue
+- [x] Arrays
+  - Arrays unidimensionais
+  - Arrays multidimensionais
+  - Foreach
+  - Inicialização
 
-### 3. Programação Orientada a Objetos (Aulas 39-94)
-- [x] Classes e objetos
-- [x] Coesão e métodos
-- [x] Referência this
-- [x] Modificadores de acesso
-- [x] Construtores
-- [x] Blocos de inicialização
-- [x] Associação entre classes
-- [x] Herança
-- [x] Classes abstratas
-- [x] Interfaces
-- [x] Polimorfismo
+### 3. Programação Orientada a Objetos
+- [x] Classes e Objetos
+  - Introdução a classes
+  - Coesão
+  - Referência de objetos
+- [x] Métodos
+  - Parâmetros
+  - Retorno
+  - Parâmetros tipo primitivo
+  - Parâmetros tipo referência
+  - Referência this
+  - Varargs
+     
 
-### 4. Tratamento de Exceções (Aulas 95-105)
-- [x] Hierarquia de exceções
-- [x] Try-catch-finally
-- [x] Exceções checked e unchecked
+## 📜 Conteúdo Restante
+
+### 3. Programação Orientada a Objetos
+- [ ] Modificadores de acesso
+  - Private
+  - Get e Set
+- [ ] Sobrecarga de métodos
+- [ ] Construtores
+  - Sobrecarga de construtores
+- [ ] Blocos de inicialização
+- [ ] Modificador static
+  - Métodos estáticos
+  - Blocos de inicialização estáticos
+- [ ] Associação
+  - Arrays com Objetos
+  - Associação unidirecional um para muitos
+  - Associação unidirecional muitos para um
+  - Associação bidirecional
+- [ ] Herança
+  - Super
+  - Protected
+  - Construtores
+  - Sequência de inicialização
+- [ ] Sobrescrita do método toString
+- [ ] Modificador final
+  - Tipo primitivo
+  - Tipo referência
+  - Classes e métodos
+- [ ] Enumeração
+  - Construtores e atributos
+  - Sobrescrita de métodos
+  - Busca por atributos
+- [ ] Classes abstratas
+  - Métodos abstratos
+  - Regras de métodos abstratos
+- [ ] Interfaces
+  - Implementando múltiplas interfaces
+  - Atributos e métodos estáticos
+- [ ] Polimorfismo
+  - Funcionamento
+  - Parâmetros polimórficos
+  - Cast e instanceof
+  - Programação orientada a interface
+
+### 4. Tratamento de Exceções
+- [x] Errors
+- [x] RuntimeException
+- [x] Exception
+- [x] Lançando exceção unchecked
+- [x] Lançando exceção checked
+- [x] Bloco Finally
+- [x] Capturando múltiplas exceções
+- [x] Multi catch em linha
 - [x] Try with resources
-- [x] Exceções customizadas
+- [x] Exceção customizada
+- [x] Exceção e regras de sobrescrita
 
-### 5. Classes Utilitárias (Aulas 106-160)
+### 5. Classes Utilitárias
 - [x] Wrappers
-- [x] Strings e StringBuilder
-- [x] Datas (Date, Calendar, LocalDate)
-- [x] Formatação (DateFormat, NumberFormat)
+- [x] Strings
+  - Desempenho
+  - StringBuilder
+- [x] Date e Time
+  - Date
+  - Calendar
+  - DateFormat
+  - LocalDate
+  - LocalTime
+  - LocalDateTime
+  - Instant
+  - Duration
+  - Period
+  - ChronoUnit
+  - TemporalAdjusters
+  - ZonedDateTime, ZoneId, OffsetDateTime
+  - DateTimeFormatter
 - [x] Internacionalização
-- [x] Resource Bundle
-- [x] Regex (Expressões Regulares)
-- [x] IO (Input/Output)
+  - Datas com Locale
+  - Números com Locale
+  - Moeda com Locale
+- [x] ResourceBundle
+- [x] Regex
+  - Pattern e Matcher
+  - Meta caracteres
+  - Range
+  - Quantificadores
+  - Anchor
+- [x] Scanner - Tokens e Delimitadores
+- [x] IO
+  - File
+  - FileWriter
+  - FileReader
+  - BufferedWriter
+  - BufferedReader
+  - File para diretórios
 - [x] NIO
-- [x] Serialização
+  - Path, Paths, Files
+  - Normalização
+  - Resolvendo Paths
+  - Relativize
+  - BasicFileAttributes
+  - DosFileAttribute
+  - PosixFileAttributes
+  - DirectoryStream
+  - SimpleFileVisitor
+  - PathMatcher
+  - ZipOutputStream
+- [x] Serialization
 
-### 6. Coleções (Aulas 161-182)
+### 6. Coleções
 - [x] Equals e HashCode
-- [x] Lists
-- [x] Sorting e Comparator
+- [x] Complexidade Big-O
+- [x] List
+  - Sorting lists
+  - Comparable
+  - Comparator
+  - Binary Search
+  - Conversão de Lista para Arrays e vice versa
+  - Iterator
 - [x] Set e HashSet
 - [x] NavigableSet e TreeSet
-- [x] Map, HashMap e LinkedHashMap
-- [x] NavigableMap e TreeMap
+- [x] Map
+  - HashMap
+  - LinkedHashMap
+  - NavigableMap
+  - TreeMap
 - [x] Queue e PriorityQueue
 
-### 7. Generics (Aulas 183-188)
-- [x] Wildcards
-- [x] Classes genéricas
-- [x] Métodos genéricos
+### 7. Generics
+- [x] Wildcard
+- [x] Classes Genéricas
+- [x] Métodos Genéricos
 
-### 8. Classes Internas (Aulas 189-192)
-- [x] Classes internas normais
-- [x] Classes locais
-- [x] Classes anônimas
-- [x] Classes internas estáticas
+### 8. Classes Internas
+- [x] Classes Locais
+- [x] Classes Anônimas
+- [x] Classes aninhadas estáticas
 
-### 9. Programação Funcional (Aulas 193-202)
-- [x] Parametrização de comportamentos
-- [x] Interfaces funcionais
+### 9. Programação Funcional
+- [x] Parametrizando comportamentos
 - [x] Lambdas
-- [x] Method References
+  - Predicate
+  - Consumer
+  - Function
+- [x] Method Reference
+  - Referência a métodos estáticos
+  - Referência a métodos não estáticos
+  - Referência a construtor
 - [x] Optional
 
-### 10. Streams (Aulas 203-219)
-- [x] Operações com streams
+### 10. Streams
+- [x] Introduction
 - [x] FlatMap
-- [x] Finding e Matching
+- [x] Finding and Matching
 - [x] Reduce
+- [x] Gerando streams
 - [x] Collectors
+  - Summarizing
+  - Grouping by
 - [x] Parallel Streams
 
-### 11. Threads (Aulas 220-246)
-- [x] Criação e estados de threads
-- [x] Sincronização
-- [x] Deadlock
+### 11. Threads
+- [x] Estados das threads
+- [x] Prioridade e Sleep
+- [x] Yield e Join
+- [x] Sincronismo de thread
+  - Classes thread safe
+  - Deadlock
+  - Wait, notify e notifyAll
 - [x] Concorrência
+  - AtomicInteger
+  - Lock and ReentrantLock
+  - Conditions
+  - ReentrantReadWriteLock
+  - CopyOnWriteArrayList
+  - ArrayBlockingQueue
+  - LinkedTransferQueue
 - [x] Executors
+  - Thread Pools
+  - ScheduledExecutorService
+  - Interface Callable
+  - Future
 - [x] CompletableFuture
+  - Get and join
+  - Streams
+  - ThreadFactory
+  - Encadeando chamadas
+  - AllOf, AnyOf
 
-### 12. Padrões de Projeto (Aulas 246-251)
+### 12. Padrões de Projeto
 - [x] Builder
 - [x] Factory
 - [x] Singleton
+  - Eager Initialization
+  - Lazy Initialization
+  - Singleton with enumeration
 - [x] Data Transfer Object (DTO)
 
-### 13. JDBC (Aulas 252-279)
+### 13. JDBC
+- [x] Instalando Docker
+- [x] Criando container MySQL
+- [x] Instalando Workbench
+- [x] Maven
 - [x] Conexão com banco de dados
-- [x] Statements e PreparedStatements
-- [x] ResultSet e MetaData
+- [x] Statement
+- [x] Lombok e Log4J2
+- [x] ResultSet
+  - findAll
+  - findByName
+  - ResultSetMetaData
+  - DatabaseMetaData
+  - TYPE SCROLL INSENSITIVE
+- [x] PreparedStatement
+- [x] CallableStatement
 - [x] RowSet
+  - JdbcRowSet
+  - CachedRowSet
 - [x] Transações
 - [x] CRUD completo
+  - Find operations
+  - Delete
+  - Save
+  - Update
+  - Anime Crud
 
-### 14. Testes e Recursos Modernos (Aulas 280-285)
+### 14. Testes e Recursos Modernos
 - [x] Testes unitários com JUnit
-- [x] Record Classes
+- [x] Record Class
 - [x] Pattern Matching for instanceof
+      
+# 🛠️ Tecnologias Utilizadas
 
-## 🛠️ Tecnologias Utilizadas
-
-- Java (JDK 15+)
-- Maven
-- MySQL
-- JUnit
-- Docker
-- Git
+<table align="center">
+<tr>
+        <th>Categoria</th>
+        <th>Tecnologia</th>
+    </tr>
+    <tr>
+        <td>🛠️ Linguagem</td>
+        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20"
+                 align="left"> Java (JDK 15+)
+        </td>
+    </tr>
+    <tr>
+        <td>📦 Gerenciamento de Dependências</td>
+        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="20"
+                 align="left"> Maven
+        </td>
+    </tr>
+    <tr>
+        <td>🗄️ Banco de Dados</td>
+        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="20"
+                 align="left"> MySQL
+        </td>
+    </tr>
+    <tr>
+        <td>🧪 Testes</td>
+        <td><img src="https://junit.org/junit5/assets/img/junit5-logo.png" width="20" align="left"> JUnit</td>
+    </tr>
+    <tr>
+        <td>🚀 DevOps</td>
+        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="20"
+                 align="left"> Docker
+        </td>
+    </tr>
+    <tr>
+        <td>🔧 Controle de Versão</td>
+        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20" align="left">
+            Git
+        </td>
+    </tr>
+    <tr>
+        <td>🧑‍💻 IDEs</td>
+        <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="20"
+                 align="left"> IntelliJ IDEA Community
+        </td>
+    </tr>
+</table>
 
 ## 💻 Como Executar
 
@@ -140,7 +350,7 @@ Este repositório documenta minha jornada de aprendizado através do curso Marat
 2. **Configure o ambiente**:
    - Instale o JDK 15 ou superior
    - Configure as variáveis de ambiente
-   - Instale uma IDE (recomendado IntelliJ IDEA)
+   - Instale uma IDE (recomendado IntelliJ IDEA Community)
 
 3. **Execute os exemplos**:
    - Abra o projeto na sua IDE
@@ -157,15 +367,11 @@ Contribuições são bem-vindas! Se você encontrou algum erro ou quer adicionar
 4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📬 Contato
-
-Nicolas Baggio - [LinkedIn](https://www.linkedin.com/in/nicolasbaggio/) - nicolasbbaggio@gmail.com
-
 ---
 
-⭐ Se este repositório foi útil para você, não se esqueça de deixar uma estrela!
+<div align="center">
+  <h2>⭐ Se este repositório foi útil para você, não se esqueça de deixar uma estrela! ⭐</h2>
 
-<div align="center"> 
   <a href="mailto:nicolasbbaggio@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red">
   </a>
